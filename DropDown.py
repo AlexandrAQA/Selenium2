@@ -21,6 +21,14 @@ time.sleep(3)
 dropdown.select_by_value("Radio-2")
 time.sleep(3)
 
+#Count number of DropDown's options
+print(len(dropdown.options))
+
+#Capture all the options and print them as output
+all_options = dropdown.options
+for option in all_options:
+    print(option.text)
+
 driver.quit()
 
 
