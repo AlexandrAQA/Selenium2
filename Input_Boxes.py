@@ -30,5 +30,5 @@ status2 = driver.find_element(By.ID, 'RESULT_TextField-1').is_enabled()
 print('Enable or Not:', status2)
 
 print('the program completed successfully')
-driver.close()
+driver.close() #Finish and close the Tab
 
